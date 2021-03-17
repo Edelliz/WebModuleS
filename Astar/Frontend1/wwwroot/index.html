@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>A*</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="mny_first_css.css">
+  <script type="text/javascript" src="Neuron.js"></script> 
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn" value="Options">
+                Options
+            </button>
+            <div class="dropdown-content">
+
+                <div class="PanelControl">
+                    <br>
+                    <input type="number" id="EnterText"><br>
+                    <input type="number" id="EnterText"><br>
+                    <input type="button" value="Set start point" onclick="SetStartPoint;" id="GenMap"><br><br>
+                    <input type="number" id="EnterText"><br>
+                    <input type="number" id="EnterText"><br>
+                    <input type="button" value="Set end point" onclick="SetStartPoint;" id="GenMap"><br><br>
+                    <input type="button" value="Generate map" onclick="GenerateMap(); DrawMap(0); SetOptions();" id="GenMap">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <canvas id="map" width="750" height="750"></canvas>
+    <div class="elements">
+        <button id="first_element"><img src="syndyk.png" width="60" height="60"></button>
+        <button id="second_element"><img src="blok.png" width="60" height="60"></button>
+        <button id="third_element"><img src="gap.jpg" width="60" height="60"></button>
+        <button id="fourth_element"><img src="deng.png" width="60" height="60"></button>
+    </div>
+
+
+</body>
+</html>

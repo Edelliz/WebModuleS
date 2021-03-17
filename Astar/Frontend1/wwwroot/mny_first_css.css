@@ -1,0 +1,93 @@
+body {
+    background: #333;
+}
+
+.navbar {
+    border-bottom: 2px outset black;
+    overflow: hidden;
+    background-color: #333;
+    font-family: georgia;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 14px;
+        width: 160px;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: georgia; 
+        margin: 0; 
+    }
+
+    
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        color: black;
+        background-color: #fabe5f;
+    }
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    border: 1px outset black;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#GenMap {
+    background-color: #fabe5f; 
+    border: 1px outset black;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: georgia;
+    font-size: 12px;
+    width: 160px;
+}
+
+#EnterText {
+    width: 154px;
+    border: 1px outset black;
+    font-family: georgia;
+    font-size: 12px;
+    margin: 0 auto;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#map {
+    background: rgba(0,0,0,0.2) url(pesok.jpg);
+    border: 4px outset black;
+    display: block;
+    margin: 0 auto;
+}
+
+.elements img {
+    background-color: #333;
+    border: 2px outset black;
+    margin: 0 auto;
+}
+#first_element {
+    background-color: #333;
+    width: 80px;
+    height: 80px;
+    margin-left: 785px;
+}
+
+#second_element, #third_element, #fourth_element {
+    background-color: #333;
+    width: 80px;
+    height: 80px;
+}
